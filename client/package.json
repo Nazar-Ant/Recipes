@@ -1,0 +1,29 @@
+{
+  "name": "recipes-client",
+  "version": "1.0.0",
+  "description": "Client for Recipes app with Vue and Quasar",
+  "author": "Antoniuk Nazar <antonuk.nazar09@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "test": "npm run lint && node test/all"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.14.0",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.16",
+    "prettier": "^2.7.1",
+    "quasar": "^2.7.1",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.0.10",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "eslint": "^8.17.0",
+    "sass": "^1.52.3",
+    "vite": "^2.9.9"
+  }
+}
